@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "projectmanagementapp-cristina",
+  "private_key_id": "ad748558212d307b08c24d3140066825cf0605c9",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDFX/X5ADCEdCQx\n9iYwHgmnOzQeA0T4+z6ATzsn2eO+s21Fa499ugYHOuHGXUgML+tIqQ7yfeR6waRd\nlHteR6qSY9z3Hi0iNgGOV50nqBpPKBxg2LbTpXaWPWx/jIfkUtMeYpC91CijFR0s\n/RQ33qktP2ciBhqUnilNPo0tLci//9cCUuI1i7EWCc9Rgzp5yPjZK7GwZiLe8Vca\nA5bXR5qW6E+adb4EVKvo53TuyACUZpV4yPcmoWrFr9LSmt5ok9u3buCRzjyeTX5K\nEhn33m0++7ZuSVV0f920maDioMtyQ7fOOHyFV7tEniueWU9UVTpvZTpvGr+66VUU\ndMcNJmp3AgMBAAECggEADcY4+/aibCv6zAMkqR5U3Xcz7OryKPodDjFOrI+ikDrP\nY7/c6hD4aLrC6j1fpidrS80t6N3A+zwrr12JuouqgMA4DzBA8BlFbzH4Gr4QOqP5\npFybbcEnZIFxjU6OZpsidrAO7+CFhtQWDtSz+4ODhPqJb7DDXB8pkhAieXEE3ePq\nf7O2/kuYydtfE10FSuxmq5/h3RGtN5L0afUAROuEaL56R5iu4DFzFcpMOho8l3Gt\nGopOJsjhkaNURA5F1kHBhzopn7/Uq2LYdAsTqiestdOGwGeeKjs9qzjIFVeqj7Ox\nBRZonAWZzBisQnPg9Y5nFGLf/yRMxszSB7IU6fgEqQKBgQDsuvRDSRUAMjMmdHNB\nPMzr9KYMVhuMZLzH4AoVTphJORcutTL2HZVePM/BoNFkszbqM1RoQ8iIScwDqAKY\nPt0fnT28+W3EVwIdVLesZGGKJYnt7kFXBox93gGkddM2o38In0r+g/hW7ZEgAtIG\nLSzNBBTQ1tsH+Onzy4av2hhdIwKBgQDVcOhxP935cUDvy6/U+JpraQjDK4+yrGv5\nGCATvR/cPQ+EmOXNd92zGY21VZ/QAgu4/btEz4jq2cyHr738qPGS8dpfBj6G6ZrU\n3X91/xEcLpuGa0NsbJDjB+FeIKgybLCuK2VnCFHzMvWqi0UfKvZjv2zAIJ5tkeI6\nUVadAihEnQKBgH7BH9cDQ6ZmOrMleSz+NC9HQL2sQXXr3pUbJesAuVPDqOEOjqnv\nbzIVV5yy0kucFhRSxahKWw52jTGL/U+toVKzLAKKf7a4a95upSY+XWfN78uhXgUN\n8Z3XiIOZvy0rX/Kq8EnVOdy5uZItUG2UNL/Vppun34GmSwaJ/KUeHxuHAoGBALin\nd9ESSf3VpzJN6466jQ3DztrawvT3Cmp0Hrw08G1fPh+fD6DUxK5/uwNYUmxoeK/Q\ng8UiLvfO+Y2h0yHVHznbluqCwnGBhHwILI9u3eSdxdtizO/udOKVHLqMUjddpPTp\ngk7C+fMG8VZcKq6uQn9FStZk4es1PJzrZZ1sEl5ZAoGAcGxUS1cL1cKJfM2+c26V\nqPQj7EjPJjf4yLeB0mD+dGArotlxaVgYujgFc2gj/l2s/qAnVgt0V2AAVtT9QyBr\njkGX1qAPAS3je1NMmvsr2pDAQE8oePshJ8i6JtbSw1vt0xE4Rf3ayS9sT9Bb4QHq\nL+Y7l/jLFU5iDjhM6FJ73Sk=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-yu6cq@projectmanagementapp-cristina.iam.gserviceaccount.com",
+  "client_id": "116060129190133999320",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-yu6cq%40projectmanagementapp-cristina.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
