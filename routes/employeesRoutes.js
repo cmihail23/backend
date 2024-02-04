@@ -1,12 +1,11 @@
 const express = require('express');
-const verifyToken = require('./tokenMiddleware');
-const fakerGenerator = require('./fakerGenerate')
+const verifyToken = require('../tokenMiddleware');
+const fakerGenerator = require('../fakerGenerate')
 
 
 const router = express.Router();
 
 router.get('/', async (req, res, next) => {
-    // await fakerGenerator();
     
 
     res.json({ "Message": "succes" })

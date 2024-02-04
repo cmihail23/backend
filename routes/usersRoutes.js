@@ -1,7 +1,7 @@
 const express = require('express');
 const bcrypt = require('bcrypt');
 const router = express.Router();
-const database = require('./database');
+const database = require('../database');
 
 router.post('/login', async (req, res, next) => {
     var userEmail = req.body.userEmail;
@@ -13,7 +13,6 @@ router.post('/login', async (req, res, next) => {
         console.log(result.docs[0].data())
         console.log(result.docs[0].password)
         console.log(result.docs[0].email)
-
 
         bcrypt.hash(password, 10, function (err, hash) {
             console.log("hashed passwed: " + hash)
