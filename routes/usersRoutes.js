@@ -10,13 +10,18 @@ router.post('/login', async (req, res, next) => {
         const usersCollectionRef = database.collection("users");
         var result = await usersCollectionRef.where("email", "==", userEmail).get();
 
-        console.log(result.docs[0].data())
-        console.log(result.docs[0].password)
-        console.log(result.docs[0].email)
+        // if(result.data().password == password){
+            
+        // }
+        //verificata parola
 
-        bcrypt.hash(password, 10, function (err, hash) {
-            console.log("hashed passwed: " + hash)
-        });
+        // console.log(result.docs[0].data())
+        // console.log(result.docs[0].password)
+        // console.log(result.docs[0].email)
+
+        // bcrypt.hash(password, 10, function (err, hash) {
+        //     console.log("hashed passwed: " + hash)
+        // });
 
         res.status(200).json({ message: 'Login successful' });
     } catch (error) {

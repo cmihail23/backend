@@ -1,14 +1,23 @@
 const express = require('express');
 const verifyToken = require('../tokenMiddleware');
-const fakerGenerator = require('../fakerGenerate')
+const database = require('../database.js')
 
 
 const router = express.Router();
 
 router.get('/', async (req, res, next) => {
-    
+    try {
+        var allEmployeesQuery = await database.collection("employees").get();
+        var allEmployees = [];
+        allEmployeesQuery.forEach(doc => {
+            allEmployees.push({ ...doc.data(), id: doc.id });
+        });
+        res.status(200).json(allEmployees);
+    } catch (error) {
+        console.log("eroare" + error)
 
-    res.json({ "Message": "succes" })
+        res.status(500).json({ "message": error })
+    }
 })
 
 router.get('/:id', (req, res, next) => {
@@ -23,7 +32,7 @@ router.get('/:id', (req, res, next) => {
     // });
 })
 
-router.post('/', verifyToken, (req, res, next) => {
+router.post('/', (req, res, next) => {
 
 })
 
